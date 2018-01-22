@@ -10,8 +10,8 @@ package:
 source:
   fn: lme4_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/lme4_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/lme4/lme4_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/lme4_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/lme4/lme4_{{ version }}.tar.gz
   sha256: 7d9fd6309aae9cfa691236b3841a60f88ec70110faf2c1dabcbdff18e1ce8669
 
 
